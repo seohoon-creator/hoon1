@@ -1,0 +1,52 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+#datePicker {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #3478f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a5fd1;
+}
+
+#mealInfo {
+  margin-top: 1.5rem;
+  white-space: pre-line;
+  font-size: 1.1rem;
+  color: #444;
+}
